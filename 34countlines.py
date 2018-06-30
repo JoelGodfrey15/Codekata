@@ -14,7 +14,7 @@ def main():
     n=len(a)
     c=0
     for i in range(n):
-        if a[i]=='.' and a[i+1]!='.':
+        if a[i]=='.':
             c+=1
     print(c)
 
