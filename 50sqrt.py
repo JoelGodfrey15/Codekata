@@ -11,8 +11,14 @@
 
 def main():
     a=int(input('Enter string:'))
-    b=a**(1/2)
-    if b%1==0:
+    b=a
+    while(b>1):
+        b=b/2
+        if b%1==0:
+            s=1
+        else:
+            s=0
+    if s==1:
         print('Yes')
     else:
         print('No')
