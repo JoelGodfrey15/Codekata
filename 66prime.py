@@ -10,7 +10,7 @@
 #-------------------------------------------------------------------------------
 
 def main():
-    a=int(input('Enter a number:'))
+    a=int(input('Enter any number:'))
     s=0
     if a==2 or a==3:
         print('Prime Number')
