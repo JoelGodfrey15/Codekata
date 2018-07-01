@@ -10,7 +10,7 @@
 #-------------------------------------------------------------------------------
 
 def main():
-    a=int(input('Enter string:'))
+    a=int(input('Enter Number:'))
     b=a
     while(b>1):
         b=b/2
